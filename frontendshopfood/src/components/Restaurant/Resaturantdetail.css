@@ -1,0 +1,23 @@
+.img-chinh{
+    height: 300px;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+}
+.div-img-chinh{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.img{
+    height: 200px;
+    width: 100%;
+}
+
+.div-img-phu{
+    display: flex;
+    justify-content: center;
+}
