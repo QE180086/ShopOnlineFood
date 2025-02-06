@@ -1,0 +1,24 @@
+.img img{
+    height: 170px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+/* Thêm hiệu ứng hover cho hình ảnh */
+.img img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Khi hover vào hình ảnh, phóng to và thay đổi độ mờ */
+.img:hover img {
+    transform: scale(1.1); /* Phóng to hình ảnh */
+    opacity: 0.8; /* Giảm độ mờ */
+}
+
+/* Thêm hiệu ứng hover cho văn bản bên dưới */
+.img:hover p {
+    color: #ff5733; /* Thay đổi màu chữ khi hover */
+    transform: translateY(-10px); /* Đẩy văn bản lên khi hover */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+

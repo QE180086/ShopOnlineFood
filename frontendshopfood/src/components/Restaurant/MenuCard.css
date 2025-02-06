@@ -1,0 +1,40 @@
+.filter{
+    background-color:rgb(15, 15, 15);
+    border: 1px solid rgb(228, 138, 221);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.5);
+}
+.padding{
+    padding-top: 10px;
+}
+
+.input1 {
+    background-color: black;
+}
+.img-accordion{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.accordion{
+    background-color: black;
+}
+.accordion-item{
+    background-color: rgb(244, 33, 89);
+}
+.btn-css{
+    background-color: rgb(28, 27, 27);
+}
+
+.btn-pink {
+    background-color: rgb(87, 55, 60);
+    color: black;
+    border: none;
+    transition: all 0.3s ease; /* Hiệu ứng mượt */
+  }
+  
+  .btn-pink:hover {
+    background-color: #e81212; /* Màu đậm hơn khi hover */
+    color: white;
+    cursor: pointer;
+  }

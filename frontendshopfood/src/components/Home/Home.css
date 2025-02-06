@@ -1,0 +1,20 @@
+.Home{
+    background-image: url('https://png.pngtree.com/background/20230611/original/pngtree-many-different-kinds-of-food-are-arranged-on-a-table-picture-image_3145533.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 56.25%;
+    position: relative;
+}
+.Home-text{
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Đưa xuống giữa theo chiều dọc */
+    left: 50%; /* Đưa sang phải giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch ngược lại để căn đúng tâm */
+    color: white; /* Màu chữ trắng để nổi bật trên nền */
+    font-family: Arial, sans-serif; /* Thay đổi font chữ nếu cần */
+}

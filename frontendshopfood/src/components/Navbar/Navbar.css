@@ -1,0 +1,21 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 35, 157);
+    height: 80px;
+}
+.Navbar-icons{
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    margin-right: 150px;
+}
+.Navbar-text{
+    color: white;
+    font-size: 4vh;
+    font-weight:  bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
